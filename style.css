@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    
+}
+
+.promo-title{
+   font-size:40px;
+   font-weight:600;
+   margin-top:10px;
+   
+}
+
+.btn-primary{
+    box-shadow: none !important;
+    padding:8px 25px;
+    border-radius:2px !important;
+    border:2px solid #be062e !important;
+    color:#be062e !important;
+    background:none !important;
+}
+
+.btn-primary:hover{
+    background:#be062e !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+p{
+    text-align:center;
+}
+
+img{
+    border-radius:50%;
+}
+
+#life{
+    padding:40px 0;
+    color:#be062e;
+}
+
+.title::before{
+    content:'';
+    background:#be062e;
+    height:5px;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    border-radius:50px;
+    transform:translateY(46px);
+}
+
+ul{
+    list-style-type:none;
+    font-weight:300;
+
+}
+
+ul li{
+    padding:3px;
+    font-weight:300;
+    color:black;
+}
+
+.col{
+    background-color:black !important;
+}
